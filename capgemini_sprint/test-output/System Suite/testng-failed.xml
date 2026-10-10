@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [System Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="System Tests(failed)">
+    <groups>
+      <run>
+        <include name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ecom_swagLabs_order.OrderModule">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="TC_ORDER_10"/>
+          <include name="navigate_login"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- ecom_swagLabs_order.OrderModule -->
+    </classes>
+  </test> <!-- System Tests(failed) -->
+</suite> <!-- Failed suite [System Suite] -->

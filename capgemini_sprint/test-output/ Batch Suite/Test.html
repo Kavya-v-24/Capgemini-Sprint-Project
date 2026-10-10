@@ -1,0 +1,636 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 09:54:20 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>99 seconds (99041 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_10()'><b>TC_ORDER_10</b><br>Test class: ecom_swagLabs_order.OrderModule</td>
+<td><div><pre>java.lang.AssertionError: Defect: Order was completed without adding a product
+	at ecom_swagLabs_order.OrderModule.TC_ORDER_10(OrderModule.java:297)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1438594533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1438594533'><pre>java.lang.AssertionError: Defect: Order was completed without adding a product
+	at org.testng.Assert.fail(Assert.java:111)
+	at ecom_swagLabs_order.OrderModule.TC_ORDER_10(OrderModule.java:297)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_01()'><b>TC_ORDER_01</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-1083777179" onClick='toggleBox("Output-1083777179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083777179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083777179">
+TC_ORDER_01: Product successfully added to cart) <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-2108777202" onClick='toggleBox("Output-2108777202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2108777202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2108777202">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_05()'><b>TC_HAMBURGER_05</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-1577428742" onClick='toggleBox("Output-1577428742", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1577428742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1577428742">
+TC-HAMBURGER-05: About navigated to Sauce Labs successfully<br/>
+TC-HAMBURGER-05: Returned to Inventory for teardown<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_03()'><b>TC_LOGIN_03</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-799834280" onClick='toggleBox("Output-799834280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799834280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799834280">
+TC_LOGIN_03: Standard User credentials integrate with Inventory page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_01()'><b>TC_SORT_01</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-1210939243" onClick='toggleBox("Output-1210939243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1210939243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1210939243">
+TC_SORT_01(Product Sort dropdown displays the available sorting option.)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_02()'><b>TC_LOGIN_02</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-1982591789" onClick='toggleBox("Output-1982591789", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1982591789" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1982591789">
+TC_LOGIN_02: Password field masks the entered password<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_07()'><b>TC_SORT_07</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-1709043290" onClick='toggleBox("Output-1709043290", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709043290" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709043290">
+TC_SORT_07(complete flow of Login, Product Sort and product-order verification)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_07()'><b>TC_LOGIN_07</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-2111069331" onClick='toggleBox("Output-2111069331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2111069331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2111069331">
+TC_LOGIN_07: authenticated session remains active after Inventory refresh<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_06()'><b>TC_ORDER_06</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-1840457976" onClick='toggleBox("Output-1840457976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1840457976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1840457976">
+TC_ORDER_06: valid checkout details open the Overview page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: performance_glitch_user, secret_sauce<br/>
+<a href="#Output-107577149" onClick='toggleBox("Output-107577149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-107577149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-107577149">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_09()'><b>TC_ORDER_09</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-721704146" onClick='toggleBox("Output-721704146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-721704146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-721704146">
+TC_ORDER_09: checkout is prevented when mandatory fields are blank<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_09()'><b>TC_LOGIN_09</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-359917733" onClick='toggleBox("Output-359917733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359917733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359917733">
+TC_LOGIN_09: Login is rejected when Username is blank<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_01()'><b>TC_LOGIN_01</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-150180388" onClick='toggleBox("Output-150180388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150180388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150180388">
+TC_LOGIN_01: Username and Password fields accept entered credentials<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: problem_user, secret_sauce<br/>
+<a href="#Output-1072213311" onClick='toggleBox("Output-1072213311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1072213311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1072213311">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: error_user, secret_sauce<br/>
+<a href="#Output-389701549" onClick='toggleBox("Output-389701549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-389701549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-389701549">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_09()'><b>TC_SORT_09</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-380394805" onClick='toggleBox("Output-380394805", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-380394805" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-380394805">
+TC_SORT_09(Product Sort functionality remains available after performing a sorting operation)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_03()'><b>TC_ORDER_03</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-637524006" onClick='toggleBox("Output-637524006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-637524006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-637524006">
+TC_ORDER_03: Selected  Product displayed in Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_06()'><b>TC_LOGIN_06</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-263111287" onClick='toggleBox("Output-263111287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-263111287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-263111287">
+TC_LOGIN_06: Login page returns to empty state after browser refresh<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_06()'><b>TC_HAMBURGER_06</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-1246215324" onClick='toggleBox("Output-1246215324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1246215324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1246215324">
+TC-HAMBURGER-06: Reset App State cleared the cart<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_04()'><b>TC_ORDER_04</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-1495382332" onClick='toggleBox("Output-1495382332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1495382332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1495382332">
+TC_ORDER_04: checkout information is transferred to Overview page <br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: visual_user, secret_sauce<br/>
+<a href="#Output-1498416461" onClick='toggleBox("Output-1498416461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498416461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498416461">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_03()'><b>TC_HAMBURGER_03</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-414440302" onClick='toggleBox("Output-414440302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-414440302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-414440302">
+TC-HAMBURGER-03: Spinner page opened and product displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_05()'><b>TC_LOGIN_05</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-1785536499" onClick='toggleBox("Output-1785536499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1785536499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1785536499">
+TC_LOGIN_05: All essential Login page controls are displayed and usable<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_08()'><b>TC_SORT_08</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-579590740" onClick='toggleBox("Output-579590740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-579590740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-579590740">
+TC_SORT_08( all available Product Sort options produce their respective sorting orders)<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_04()'><b>TC_SORT_04</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-1479177802" onClick='toggleBox("Output-1479177802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479177802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479177802">
+TC_SORT_04( selecting Price Low to High arranges products in ascending price order)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_04()'><b>TC_LOGIN_04</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-1686232293" onClick='toggleBox("Output-1686232293", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1686232293" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1686232293">
+TC_LOGIN_04: Problem User credentials establish an Inventory session<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_08()'><b>TC_ORDER_08</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-2135563436" onClick='toggleBox("Output-2135563436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135563436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135563436">
+TC_ORDER_08: Cancel from Checkout returns to Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginModule.TC_LOGIN_08()'><b>TC_LOGIN_08</b><br>Test class: ecom_swagLabs_login.LoginModule<br/>
+<a href="#Output-1091844211" onClick='toggleBox("Output-1091844211", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1091844211" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1091844211">
+TC_LOGIN_08: Authenticated user can directly access Inventory page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_login.LoginModule@44c03695</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_03()'><b>TC_SORT_03</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-1875025322" onClick='toggleBox("Output-1875025322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1875025322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1875025322">
+TC_SORT_03(selecting Name A to Z arranges products in ascending alphabetical order)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: , kiuyy<br/>
+<a href="#Output-71322219" onClick='toggleBox("Output-71322219", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71322219" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71322219">
+Epic sadface: Username is required<br/>
+Login failed with Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: standard_user, Ugt56<br/>
+<a href="#Output-1910997770" onClick='toggleBox("Output-1910997770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910997770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910997770">
+Epic sadface: Username and password do not match any user in this service<br/>
+Login failed with Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: hjju, 1233<br/>
+<a href="#Output-1270816977" onClick='toggleBox("Output-1270816977", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270816977" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270816977">
+Epic sadface: Username and password do not match any user in this service<br/>
+Login failed with Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_05()'><b>TC_SORT_05</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-1389984438" onClick='toggleBox("Output-1389984438", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389984438" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389984438">
+TC_SORT_05(Product Sort dropdown is available on the Inventory page)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_06()'><b>TC_SORT_06</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-934617920" onClick='toggleBox("Output-934617920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-934617920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-934617920">
+TC_SORT_06( Product Sort operation performed successfully on the Inventory page)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_05()'><b>TC_ORDER_05</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-1008294188" onClick='toggleBox("Output-1008294188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1008294188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1008294188">
+TC_ORDER_05: Continue Shopping returns to Inventory page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_01()'><b>TC_HAMBURGER_01</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-566860479" onClick='toggleBox("Output-566860479", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-566860479" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-566860479">
+TC-HAMBURGER-01: All Items navigated to Inventory successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_04()'><b>TC_HAMBURGER_04</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-621257072" onClick='toggleBox("Output-621257072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-621257072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-621257072">
+TC-HAMBURGER-04: Slider page opened and product displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: mutal_user, secret_sauce<br/>
+<a href="#Output-473978873" onClick='toggleBox("Output-473978873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-473978873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-473978873">
+Epic sadface: Username and password do not match any user in this service<br/>
+Login failed with Invalid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_product.SortProductModule.TC_SORT_02()'><b>TC_SORT_02</b><br>Test class: ecom_swagLabs_product.SortProductModule<br/>
+<a href="#Output-985655365" onClick='toggleBox("Output-985655365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-985655365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-985655365">
+TC_SORT_02(all available Product Sort options can be selected successfully.)<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_product.SortProductModule@4c12331b</td></tr>
+<tr>
+<td title='ecom_swagLabs_order.OrderModule.TC_ORDER_07()'><b>TC_ORDER_07</b><br>Test class: ecom_swagLabs_order.OrderModule<br/>
+<a href="#Output-914175168" onClick='toggleBox("Output-914175168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-914175168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-914175168">
+TC_ORDER_07: Successfully complete order flow from Login to Order Confirmation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_order.OrderModule@6150c3ec</td></tr>
+<tr>
+<td title='ecom_swagLabs_login.LoginWithMultipleCredentials.validLoginTest()'><b>validLoginTest</b><br>Test class: ecom_swagLabs_login.LoginWithMultipleCredentials<br>Parameters: visual_user, secret_sauce<br/>
+<a href="#Output-940563698" onClick='toggleBox("Output-940563698", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-940563698" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-940563698">
+Login successful with valid credentials<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c</td></tr>
+<tr>
+<td title='ecom_swagLabs_hamburgermenu.HamburgerMenuModule.TC_HAMBURGER_02()'><b>TC_HAMBURGER_02</b><br>Test class: ecom_swagLabs_hamburgermenu.HamburgerMenuModule<br/>
+<a href="#Output-502296269" onClick='toggleBox("Output-502296269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-502296269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-502296269">
+TC-HAMBURGER-02: Lazy Load page opened successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+package baseclass_utility;
+
+import java.io.IOException;
+
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+
+import generic_utility.CommonData;
+import swag_labs_pom_pages.HamburgerMenupage;
+import swag_labs_pom_pages.HomePage;
+import swag_labs_pom_pages.LoginPage;
+
+public class Baseclass extends CommonData{
+	protected WebDriver driver;
+	
+	@Parameters("browser")
+	@BeforeClass(alwaysRun = true)
+	public void launchBrowser(@Optional("chrome") String browser) throws IOException {
+
+	    if (browser.equalsIgnoreCase("chrome")) {
+	    	// Avoid Change Password popup
+			ChromeOptions settings = new ChromeOptions();
+			Map<String, Object> prefs = new HashMap<>();
+			prefs.put("profile.password_manager_leak_detection", false);
+			settings.setExperimentalOption("prefs", prefs);
+			
+	        driver = new ChromeDriver(settings);
+	        
+	        
+	    } else if (browser.equalsIgnoreCase("edge")) {
+	        driver = new EdgeDriver();
+	    } else {
+	        throw new IllegalArgumentException("Unsupported browser: " + browser);
+	    }
+
+	    driver.manage().window().maximize();
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	}
+	
+	@BeforeMethod(alwaysRun = true)
+	public void navigate_login() throws IOException
+	{
+		driver.get(getCommonData("url"));
+		LoginPage lp=new LoginPage(driver);
+		lp.getLogin(getCommonData("username"), getCommonData("password"));
+		
+	}
+	
+	@AfterMethod(alwaysRun = true)
+	public void logout()
+	{
+		HomePage hp=new HomePage(driver);
+		hp.clickMenubutton();
+		
+		HamburgerMenupage hbp=new HamburgerMenupage(driver);
+		hbp.clickLogout();
+	}
+	
+	@AfterClass(alwaysRun = true)
+	public void closeBrowser()
+	{
+		driver.quit();
+	}
+	
+
+}

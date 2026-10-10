@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="42" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC_SORT_01(Product Sort dropdown displays the available sorting option.)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_02(all available Product Sort options can be selected successfully.)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_03(selecting Name A to Z arranges products in ascending alphabetical order)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_04( selecting Price Low to High arranges products in ascending price order)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_05(Product Sort dropdown is available on the Inventory page)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_06( Product Sort operation performed successfully on the Inventory page)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_07(complete flow of Login, Product Sort and product-order verification)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_08( all available Product Sort options produce their respective sorting orders)]]>
+    </line>
+    <line>
+      <![CDATA[TC_SORT_09(Product Sort functionality remains available after performing a sorting operation)]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_01: Product successfully added to cart) ]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_03: Selected  Product displayed in Cart]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_04: checkout information is transferred to Overview page ]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_05: Continue Shopping returns to Inventory page]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_06: valid checkout details open the Overview page]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_07: Successfully complete order flow from Login to Order Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_08: Cancel from Checkout returns to Cart]]>
+    </line>
+    <line>
+      <![CDATA[TC_ORDER_09: checkout is prevented when mandatory fields are blank]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_01: Username and Password fields accept entered credentials]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_02: Password field masks the entered password]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_03: Standard User credentials integrate with Inventory page]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_04: Problem User credentials establish an Inventory session]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_05: All essential Login page controls are displayed and usable]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_06: Login page returns to empty state after browser refresh]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_07: authenticated session remains active after Inventory refresh]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_08: Authenticated user can directly access Inventory page]]>
+    </line>
+    <line>
+      <![CDATA[TC_LOGIN_09: Login is rejected when Username is blank]]>
+    </line>
+    <line>
+      <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+    </line>
+    <line>
+      <![CDATA[Login failed with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+    </line>
+    <line>
+      <![CDATA[Login failed with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+    </line>
+    <line>
+      <![CDATA[Login failed with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Epic sadface: Username is required]]>
+    </line>
+    <line>
+      <![CDATA[Login failed with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login successful with valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-01: All Items navigated to Inventory successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-02: Lazy Load page opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-03: Spinner page opened and product displayed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-04: Slider page opened and product displayed]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-05: About navigated to Sauce Labs successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-05: Returned to Inventory for teardown]]>
+    </line>
+    <line>
+      <![CDATA[TC-HAMBURGER-06: Reset App State cleared the cart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T09:54:20 IST" name=" Batch Suite" finished-at="2026-10-10T09:55:59 IST" duration-ms="99041">
+    <groups>
+      <group name="Integration">
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_01()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_01" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_02()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_02" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_03()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_03" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_04()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_04" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_05()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_05" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_06()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_06" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="LoginModule.TC_LOGIN_03()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_03" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_04()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_04" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_07()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_07" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_08()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_08" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="OrderModule.TC_ORDER_01()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_01" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_03()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_03" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_04()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_04" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_05()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_05" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_06()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_06" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_07()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_07" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_08()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_08" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="SortProductModule.TC_SORT_03()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_03" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_04()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_04" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_07()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_07" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_08()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_08" class="ecom_swagLabs_product.SortProductModule"/>
+      </group> <!-- Integration -->
+      <group name="Negative">
+        <method signature="LoginModule.TC_LOGIN_09()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_09" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="OrderModule.TC_ORDER_09()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_09" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_10()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_10" class="ecom_swagLabs_order.OrderModule"/>
+      </group> <!-- Negative -->
+      <group name="Functionality">
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_01()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_01" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_02()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_02" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_03()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_03" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_04()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_04" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_06()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_06" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="LoginModule.TC_LOGIN_01()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_01" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_02()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_02" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_03()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_03" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_04()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_04" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_05()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_05" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_06()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_06" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_07()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_07" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_08()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_08" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_09()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_09" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="OrderModule.TC_ORDER_01()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_01" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_03()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_03" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_04()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_04" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_05()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_05" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_06()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_06" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_07()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_07" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_08()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_08" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_09()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_09" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="SortProductModule.TC_SORT_01()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_01" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_02()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_02" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_03()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_03" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_04()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_04" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_05()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_05" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_06()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_06" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_07()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_07" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_08()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_08" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_09()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_09" class="ecom_swagLabs_product.SortProductModule"/>
+      </group> <!-- Functionality -->
+      <group name="Smoke">
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_01()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_01" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="LoginModule.TC_LOGIN_01()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_01" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_03()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_03" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_05()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_05" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_06()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_06" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_07()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_07" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="OrderModule.TC_ORDER_01()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_01" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_05()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_05" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_06()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_06" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_07()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_07" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_09()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_09" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="SortProductModule.TC_SORT_01()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_01" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_02()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_02" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_03()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_03" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_05()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_05" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_06()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_06" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_09()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_09" class="ecom_swagLabs_product.SortProductModule"/>
+      </group> <!-- Smoke -->
+      <group name="System">
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_05()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_05" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="HamburgerMenuModule.TC_HAMBURGER_06()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" name="TC_HAMBURGER_06" class="ecom_swagLabs_hamburgermenu.HamburgerMenuModule"/>
+        <method signature="LoginModule.TC_LOGIN_03()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_03" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_04()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_04" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_07()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_07" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="LoginModule.TC_LOGIN_08()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" name="TC_LOGIN_08" class="ecom_swagLabs_login.LoginModule"/>
+        <method signature="OrderModule.TC_ORDER_04()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_04" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_07()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_07" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_08()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_08" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="OrderModule.TC_ORDER_10()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" name="TC_ORDER_10" class="ecom_swagLabs_order.OrderModule"/>
+        <method signature="SortProductModule.TC_SORT_03()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_03" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_07()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_07" class="ecom_swagLabs_product.SortProductModule"/>
+        <method signature="SortProductModule.TC_SORT_08()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" name="TC_SORT_08" class="ecom_swagLabs_product.SortProductModule"/>
+      </group> <!-- System -->
+    </groups>
+    <test started-at="2026-10-10T09:54:20 IST" name="Test" finished-at="2026-10-10T09:55:59 IST" duration-ms="99041">
+      <class name="ecom_swagLabs_login.LoginModule">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:56 IST" name="launchBrowser" finished-at="2026-10-10T09:54:57 IST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:57 IST" name="navigateApp" finished-at="2026-10-10T09:54:57 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_01()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:57 IST" name="TC_LOGIN_01" finished-at="2026-10-10T09:54:58 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_01: Username and Password fields accept entered credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_01 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="navigateApp" finished-at="2026-10-10T09:54:58 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_02()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="TC_LOGIN_02" finished-at="2026-10-10T09:54:58 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_02: Password field masks the entered password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_02 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="navigateApp" finished-at="2026-10-10T09:54:58 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_03()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="TC_LOGIN_03" finished-at="2026-10-10T09:54:58 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_03: Standard User credentials integrate with Inventory page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_03 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="navigateApp" finished-at="2026-10-10T09:54:58 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_04()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="TC_LOGIN_04" finished-at="2026-10-10T09:54:58 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_04: Problem User credentials establish an Inventory session]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_04 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="navigateApp" finished-at="2026-10-10T09:54:58 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_05()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:58 IST" name="TC_LOGIN_05" finished-at="2026-10-10T09:54:59 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_05: All essential Login page controls are displayed and usable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_05 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:59 IST" name="navigateApp" finished-at="2026-10-10T09:54:59 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_06()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:59 IST" name="TC_LOGIN_06" finished-at="2026-10-10T09:54:59 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_06: Login page returns to empty state after browser refresh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_06 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:59 IST" name="navigateApp" finished-at="2026-10-10T09:54:59 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_07()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:54:59 IST" name="TC_LOGIN_07" finished-at="2026-10-10T09:55:00 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_07: authenticated session remains active after Inventory refresh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_07 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:55:00 IST" name="navigateApp" finished-at="2026-10-10T09:55:00 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_08()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:55:00 IST" name="TC_LOGIN_08" finished-at="2026-10-10T09:55:00 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_08: Authenticated user can directly access Inventory page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_08 -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:55:00 IST" name="navigateApp" finished-at="2026-10-10T09:55:00 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="TC_LOGIN_09()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:55:00 IST" name="TC_LOGIN_09" finished-at="2026-10-10T09:55:01 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_LOGIN_09: Login is rejected when Username is blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_09 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom_swagLabs_login.LoginModule@44c03695]" started-at="2026-10-10T09:55:01 IST" name="closeBrowser" finished-at="2026-10-10T09:55:01 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom_swagLabs_login.LoginModule -->
+      <class name="ecom_swagLabs_product.SortProductModule">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:20 IST" name="launchBrowser" finished-at="2026-10-10T09:54:25 IST" duration-ms="5028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:25 IST" name="navigate_login" finished-at="2026-10-10T09:54:26 IST" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_01()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:26 IST" name="TC_SORT_01" finished-at="2026-10-10T09:54:27 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_01(Product Sort dropdown displays the available sorting option.)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_01 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:27 IST" name="logout" finished-at="2026-10-10T09:54:27 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:27 IST" name="navigate_login" finished-at="2026-10-10T09:54:27 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_02()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:27 IST" name="TC_SORT_02" finished-at="2026-10-10T09:54:30 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_02(all available Product Sort options can be selected successfully.)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_02 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:30 IST" name="logout" finished-at="2026-10-10T09:54:30 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:30 IST" name="navigate_login" finished-at="2026-10-10T09:54:30 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_03()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:30 IST" name="TC_SORT_03" finished-at="2026-10-10T09:54:31 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_03(selecting Name A to Z arranges products in ascending alphabetical order)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_03 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:31 IST" name="logout" finished-at="2026-10-10T09:54:31 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:31 IST" name="navigate_login" finished-at="2026-10-10T09:54:31 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_04()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:31 IST" name="TC_SORT_04" finished-at="2026-10-10T09:54:32 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_04( selecting Price Low to High arranges products in ascending price order)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_04 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:32 IST" name="logout" finished-at="2026-10-10T09:54:32 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:32 IST" name="navigate_login" finished-at="2026-10-10T09:54:32 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_05()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:32 IST" name="TC_SORT_05" finished-at="2026-10-10T09:54:32 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_05(Product Sort dropdown is available on the Inventory page)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_05 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:32 IST" name="logout" finished-at="2026-10-10T09:54:32 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:32 IST" name="navigate_login" finished-at="2026-10-10T09:54:33 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_06()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:33 IST" name="TC_SORT_06" finished-at="2026-10-10T09:54:33 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_06( Product Sort operation performed successfully on the Inventory page)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_06 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:33 IST" name="logout" finished-at="2026-10-10T09:54:33 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:33 IST" name="navigate_login" finished-at="2026-10-10T09:54:33 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_07()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:33 IST" name="TC_SORT_07" finished-at="2026-10-10T09:54:34 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_07(complete flow of Login, Product Sort and product-order verification)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_07 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:34 IST" name="logout" finished-at="2026-10-10T09:54:34 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:34 IST" name="navigate_login" finished-at="2026-10-10T09:54:34 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_08()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:34 IST" name="TC_SORT_08" finished-at="2026-10-10T09:54:36 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_08( all available Product Sort options produce their respective sorting orders)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_08 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:36 IST" name="logout" finished-at="2026-10-10T09:54:36 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:36 IST" name="navigate_login" finished-at="2026-10-10T09:54:36 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_SORT_09()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:36 IST" name="TC_SORT_09" finished-at="2026-10-10T09:54:36 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_SORT_09(Product Sort functionality remains available after performing a sorting operation)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_SORT_09 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:36 IST" name="logout" finished-at="2026-10-10T09:54:37 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom_swagLabs_product.SortProductModule@4c12331b]" started-at="2026-10-10T09:54:37 IST" name="closeBrowser" finished-at="2026-10-10T09:54:37 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom_swagLabs_product.SortProductModule -->
+      <class name="ecom_swagLabs_order.OrderModule">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:37 IST" name="launchBrowser" finished-at="2026-10-10T09:54:38 IST" duration-ms="969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:38 IST" name="navigate_login" finished-at="2026-10-10T09:54:39 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_01()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:39 IST" name="TC_ORDER_01" finished-at="2026-10-10T09:54:39 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_01: Product successfully added to cart) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_01 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:39 IST" name="logout" finished-at="2026-10-10T09:54:39 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:39 IST" name="navigate_login" finished-at="2026-10-10T09:54:39 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_03()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:39 IST" name="TC_ORDER_03" finished-at="2026-10-10T09:54:40 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_03: Selected  Product displayed in Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_03 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:40 IST" name="logout" finished-at="2026-10-10T09:54:40 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:40 IST" name="navigate_login" finished-at="2026-10-10T09:54:40 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_04()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:40 IST" name="TC_ORDER_04" finished-at="2026-10-10T09:54:49 IST" duration-ms="8765" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_04: checkout information is transferred to Overview page ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_04 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:49 IST" name="logout" finished-at="2026-10-10T09:54:49 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:49 IST" name="navigate_login" finished-at="2026-10-10T09:54:49 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_05()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:49 IST" name="TC_ORDER_05" finished-at="2026-10-10T09:54:50 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_05: Continue Shopping returns to Inventory page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_05 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:50 IST" name="logout" finished-at="2026-10-10T09:54:50 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:50 IST" name="navigate_login" finished-at="2026-10-10T09:54:50 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_06()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:50 IST" name="TC_ORDER_06" finished-at="2026-10-10T09:54:51 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_06: valid checkout details open the Overview page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_06 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:51 IST" name="logout" finished-at="2026-10-10T09:54:51 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:51 IST" name="navigate_login" finished-at="2026-10-10T09:54:52 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_07()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:52 IST" name="TC_ORDER_07" finished-at="2026-10-10T09:54:52 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_07: Successfully complete order flow from Login to Order Confirmation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_07 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:52 IST" name="logout" finished-at="2026-10-10T09:54:53 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:53 IST" name="navigate_login" finished-at="2026-10-10T09:54:53 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_08()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:53 IST" name="TC_ORDER_08" finished-at="2026-10-10T09:54:53 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_08: Cancel from Checkout returns to Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_08 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:53 IST" name="logout" finished-at="2026-10-10T09:54:53 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:53 IST" name="navigate_login" finished-at="2026-10-10T09:54:54 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_09()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:54 IST" name="TC_ORDER_09" finished-at="2026-10-10T09:54:54 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_ORDER_09: checkout is prevented when mandatory fields are blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_09 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:54 IST" name="logout" finished-at="2026-10-10T09:54:54 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:54 IST" name="navigate_login" finished-at="2026-10-10T09:54:55 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_ORDER_10()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:55 IST" name="TC_ORDER_10" finished-at="2026-10-10T09:54:55 IST" duration-ms="712" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Defect: Order was completed without adding a product]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Defect: Order was completed without adding a product
+at org.testng.Assert.fail(Assert.java:111)
+at ecom_swagLabs_order.OrderModule.TC_ORDER_10(OrderModule.java:297)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ORDER_10 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:55 IST" name="logout" finished-at="2026-10-10T09:54:55 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom_swagLabs_order.OrderModule@6150c3ec]" started-at="2026-10-10T09:54:55 IST" name="closeBrowser" finished-at="2026-10-10T09:54:56 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom_swagLabs_order.OrderModule -->
+      <class name="ecom_swagLabs_login.LoginWithMultipleCredentials">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:01 IST" name="launchBrowser" finished-at="2026-10-10T09:55:02 IST" duration-ms="1091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:02 IST" name="navigateApp" finished-at="2026-10-10T09:55:03 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:03 IST" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2026-10-10T09:55:05 IST" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hjju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1233]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+            </line>
+            <line>
+              <![CDATA[Login failed with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:05 IST" name="navigateApp" finished-at="2026-10-10T09:55:05 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:05 IST" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2026-10-10T09:55:07 IST" duration-ms="2341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ugt56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+            </line>
+            <line>
+              <![CDATA[Login failed with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:07 IST" name="navigateApp" finished-at="2026-10-10T09:55:07 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:07 IST" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2026-10-10T09:55:10 IST" duration-ms="2323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mutal_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+            </line>
+            <line>
+              <![CDATA[Login failed with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:10 IST" name="navigateApp" finished-at="2026-10-10T09:55:10 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:10 IST" name="invalidLoginTest" data-provider="invalidLogin" finished-at="2026-10-10T09:55:12 IST" duration-ms="2270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kiuyy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Epic sadface: Username is required]]>
+            </line>
+            <line>
+              <![CDATA[Login failed with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:12 IST" name="navigateApp" finished-at="2026-10-10T09:55:12 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:12 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:14 IST" duration-ms="2364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:14 IST" name="navigateApp" finished-at="2026-10-10T09:55:14 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:14 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:17 IST" duration-ms="2358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:17 IST" name="navigateApp" finished-at="2026-10-10T09:55:17 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:17 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:24 IST" duration-ms="7402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:24 IST" name="navigateApp" finished-at="2026-10-10T09:55:24 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:24 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:27 IST" duration-ms="2329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:27 IST" name="navigateApp" finished-at="2026-10-10T09:55:27 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:27 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:29 IST" duration-ms="2304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="navigateApp()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:29 IST" name="navigateApp" finished-at="2026-10-10T09:55:29 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApp -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:29 IST" name="validLoginTest" data-provider="validLogin" finished-at="2026-10-10T09:55:31 IST" duration-ms="2315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful with valid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom_swagLabs_login.LoginWithMultipleCredentials@7e6f74c]" started-at="2026-10-10T09:55:31 IST" name="closeBrowser" finished-at="2026-10-10T09:55:32 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom_swagLabs_login.LoginWithMultipleCredentials -->
+      <class name="ecom_swagLabs_hamburgermenu.HamburgerMenuModule">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:32 IST" name="launchBrowser" finished-at="2026-10-10T09:55:33 IST" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:33 IST" name="navigate_login" finished-at="2026-10-10T09:55:34 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_01()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:34 IST" name="TC_HAMBURGER_01" finished-at="2026-10-10T09:55:35 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-01: All Items navigated to Inventory successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_01 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:35 IST" name="logout" finished-at="2026-10-10T09:55:35 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:35 IST" name="navigate_login" finished-at="2026-10-10T09:55:35 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_02()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:35 IST" name="TC_HAMBURGER_02" finished-at="2026-10-10T09:55:36 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-02: Lazy Load page opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_02 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:36 IST" name="logout" finished-at="2026-10-10T09:55:36 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:36 IST" name="navigate_login" finished-at="2026-10-10T09:55:36 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_03()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:36 IST" name="TC_HAMBURGER_03" finished-at="2026-10-10T09:55:37 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-03: Spinner page opened and product displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_03 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:37 IST" name="logout" finished-at="2026-10-10T09:55:38 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:38 IST" name="navigate_login" finished-at="2026-10-10T09:55:38 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_04()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:38 IST" name="TC_HAMBURGER_04" finished-at="2026-10-10T09:55:38 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-04: Slider page opened and product displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_04 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:38 IST" name="logout" finished-at="2026-10-10T09:55:38 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:38 IST" name="navigate_login" finished-at="2026-10-10T09:55:39 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_05()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:39 IST" name="TC_HAMBURGER_05" finished-at="2026-10-10T09:55:47 IST" duration-ms="8513" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-05: About navigated to Sauce Labs successfully]]>
+            </line>
+            <line>
+              <![CDATA[TC-HAMBURGER-05: Returned to Inventory for teardown]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_05 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:47 IST" name="logout" finished-at="2026-10-10T09:55:48 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="navigate_login()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:48 IST" name="navigate_login" finished-at="2026-10-10T09:55:48 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_login -->
+        <test-method signature="TC_HAMBURGER_06()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:48 IST" name="TC_HAMBURGER_06" finished-at="2026-10-10T09:55:58 IST" duration-ms="10452" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-HAMBURGER-06: Reset App State cleared the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_HAMBURGER_06 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:58 IST" name="logout" finished-at="2026-10-10T09:55:59 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ecom_swagLabs_hamburgermenu.HamburgerMenuModule@dd05255]" started-at="2026-10-10T09:55:59 IST" name="closeBrowser" finished-at="2026-10-10T09:55:59 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ecom_swagLabs_hamburgermenu.HamburgerMenuModule -->
+    </test> <!-- Test -->
+  </suite> <!--  Batch Suite -->
+</testng-results>
