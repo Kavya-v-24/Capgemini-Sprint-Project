@@ -1,4 +1,4 @@
-activeProfiles=
+activeProfiles=Batch, CrossBrowser, Parallel, FunctionalGroup, IntegrationGroup, NegativeGroup, SmokeGroup, SystemGroup
 eclipse.preferences.version=1
 resolveWorkspaceProjects=true
 version=1
